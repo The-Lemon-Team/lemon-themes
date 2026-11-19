@@ -1,0 +1,71 @@
+/* Shared optional surface & scrollbar utilities for Lemon Atom / Slate themes */
+
+.bg-platform {
+  background-color: rgb(var(--lemon-platform-rgb));
+}
+
+.floating-card {
+  background-color: rgb(var(--lemon-panel-rgb));
+  border: 1px solid var(--lemon-panel-border);
+  box-shadow: var(--lemon-panel-shadow);
+}
+
+/* Physical Platform Tile */
+.platform-tile {
+  background-color: rgb(var(--lemon-tile-rgb));
+  border: 1px solid var(--lemon-tile-border);
+  box-shadow: var(--lemon-tile-shadow);
+  border-radius: 0.75rem;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease;
+}
+
+.platform-tile-hover:hover {
+  box-shadow: var(--lemon-tile-shadow-hover);
+  border-color: var(--lemon-tile-border-hover);
+}
+
+/* Compact control input */
+.compact-input {
+  height: 1.75rem;
+  background-color: rgb(var(--lemon-control-rgb));
+  border: 1px solid var(--lemon-control-border);
+  color: rgb(var(--lemon-text-main-rgb));
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6875rem;
+  border-radius: 0.5rem;
+  padding: 0 0.625rem;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+
+.compact-input::placeholder {
+  color: rgb(var(--lemon-text-muted-rgb));
+}
+
+.compact-input:focus {
+  border-color: var(--lemon-primary);
+  box-shadow: 0 0 0 1px var(--lemon-primary-border);
+}
+
+/* Clean custom scrollbars */
+.lemon-scrollbar::-webkit-scrollbar,
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.lemon-scrollbar::-webkit-scrollbar-track,
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.lemon-scrollbar::-webkit-scrollbar-thumb,
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--lemon-scrollbar-thumb);
+  border-radius: 9999px;
+}
+
+.lemon-scrollbar::-webkit-scrollbar-thumb:hover,
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--lemon-scrollbar-thumb-hover);
+}

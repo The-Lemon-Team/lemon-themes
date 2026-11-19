@@ -1,0 +1,534 @@
+/* Auto-generated from @lemon/themes TypeScript palette definitions. Do not edit manually. */
+
+/* Default theme: Lemon Atom Theme (Light / Dark) */
+:root {
+  color-scheme: light;
+
+  /* Canonical Lemon Surface RGB triplets (usable with rgb(var(--...) / <alpha-value>)) */
+  --lemon-platform-rgb: 226 232 240;
+  --lemon-canvas-rgb: 237 241 246;
+  --lemon-panel-rgb: 255 255 255;
+  --lemon-tile-rgb: 255 255 255;
+  --lemon-tile-subtle-rgb: 241 245 249;
+  --lemon-tile-muted-rgb: 226 232 240;
+  --lemon-control-rgb: 255 255 255;
+  --lemon-control-hover-rgb: 248 250 252;
+
+  /* Canonical Text RGB triplets */
+  --lemon-text-main-rgb: 56 58 66;
+  --lemon-text-secondary-rgb: 92 99 112;
+  --lemon-text-muted-rgb: 124 132 146;
+  --lemon-text-dim-rgb: 157 163 175;
+
+  /* Canonical Brand & Status RGB triplets */
+  --lemon-primary-rgb: 112 118 0;
+  --lemon-primary-hover-rgb: 89 93 0;
+  --lemon-primary-active-rgb: 89 93 0;
+  --lemon-on-primary-rgb: 255 255 255;
+  --lemon-link-rgb: 112 118 0;
+  --lemon-success-rgb: 22 163 74;
+  --lemon-warning-rgb: 217 119 6;
+  --lemon-error-rgb: 220 38 38;
+  --lemon-info-rgb: 2 132 199;
+
+  /* Direct CSS values (surfaces, borders, shadows, scrollbars) */
+  --lemon-primary: #707600;
+  --lemon-primary-hover: #595d00;
+  --lemon-primary-bg: rgba(112, 118, 0, 0.08);
+  --lemon-primary-border: rgba(112, 118, 0, 0.25);
+  --lemon-on-primary: #ffffff;
+  --lemon-panel-border: rgba(15, 23, 42, 0.14);
+  --lemon-tile-border: rgba(15, 23, 42, 0.18);
+  --lemon-tile-border-hover: rgba(15, 23, 42, 0.32);
+  --lemon-control-border: rgba(15, 23, 42, 0.18);
+  --lemon-control-border-hover: rgba(15, 23, 42, 0.35);
+  --lemon-panel-shadow: 0 4px 16px -2px rgba(15, 23, 42, 0.08), 0 1px 3px 0 rgba(15, 23, 42, 0.04);
+  --lemon-tile-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.08), 0 2px 6px -1px rgba(15, 23, 42, 0.05);
+  --lemon-tile-shadow-hover: 0 4px 12px -2px rgba(15, 23, 42, 0.14), 0 2px 4px -1px rgba(15, 23, 42, 0.06);
+  --lemon-scrollbar-thumb: rgba(15, 23, 42, 0.16);
+  --lemon-scrollbar-thumb-hover: rgba(15, 23, 42, 0.32);
+
+  /* Backward-compatible aliases (admin-cms & feed-app) */
+  --platform-bg: #e2e8f0;
+  --canvas-bg: #edf1f6;
+  --panel-bg: #ffffff;
+  --panel-border: rgba(15, 23, 42, 0.14);
+  --panel-shadow: 0 4px 16px -2px rgba(15, 23, 42, 0.08), 0 1px 3px 0 rgba(15, 23, 42, 0.04);
+  --tile-bg: #ffffff;
+  --tile-bg-subtle: #f1f5f9;
+  --tile-bg-muted: #e2e8f0;
+  --tile-border: rgba(15, 23, 42, 0.18);
+  --tile-border-hover: rgba(15, 23, 42, 0.32);
+  --tile-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.08), 0 2px 6px -1px rgba(15, 23, 42, 0.05);
+  --tile-shadow-hover: 0 4px 12px -2px rgba(15, 23, 42, 0.14), 0 2px 4px -1px rgba(15, 23, 42, 0.06);
+  --control-bg: #ffffff;
+  --control-bg-hover: #f8fafc;
+  --control-border: rgba(15, 23, 42, 0.18);
+  --control-border-hover: rgba(15, 23, 42, 0.35);
+  --control-text: #383a42;
+  --control-placeholder: #7c8492;
+  --text-main: #383a42;
+  --text-secondary: #5c6370;
+  --text-muted: #7c8492;
+  --text-dim: #9da3af;
+  --primary: #707600;
+  --primary-rgb: 112 118 0;
+  --primary-hover: #595d00;
+  --primary-bg: rgba(112, 118, 0, 0.08);
+  --primary-border: rgba(112, 118, 0, 0.25);
+  --on-primary: 255 255 255;
+  --scrollbar-thumb: rgba(15, 23, 42, 0.16);
+  --scrollbar-thumb-hover: rgba(15, 23, 42, 0.32);
+  --feed-bg: 226 232 240;
+  --surface-container: 255 255 255;
+  --surface-container-highest: 241 245 249;
+  --surface-variant: 226 232 240;
+  --on-surface: 56 58 66;
+  --on-surface-variant: 92 99 112;
+  --outline: 124 132 146;
+  --outline-variant: 157 163 175;
+}
+
+:root.dark {
+  color-scheme: dark;
+
+  /* Canonical Lemon Surface RGB triplets (usable with rgb(var(--...) / <alpha-value>)) */
+  --lemon-platform-rgb: 27 29 35;
+  --lemon-canvas-rgb: 33 37 43;
+  --lemon-panel-rgb: 36 40 48;
+  --lemon-tile-rgb: 40 44 52;
+  --lemon-tile-subtle-rgb: 36 40 48;
+  --lemon-tile-muted-rgb: 30 34 39;
+  --lemon-control-rgb: 30 34 39;
+  --lemon-control-hover-rgb: 37 41 49;
+
+  /* Canonical Text RGB triplets */
+  --lemon-text-main-rgb: 157 165 180;
+  --lemon-text-secondary-rgb: 126 135 150;
+  --lemon-text-muted-rgb: 92 99 112;
+  --lemon-text-dim-rgb: 68 75 88;
+
+  /* Canonical Brand & Status RGB triplets */
+  --lemon-primary-rgb: 229 192 123;
+  --lemon-primary-hover-rgb: 240 211 141;
+  --lemon-primary-active-rgb: 201 154 69;
+  --lemon-on-primary-rgb: 30 34 39;
+  --lemon-link-rgb: 229 192 123;
+  --lemon-success-rgb: 152 195 121;
+  --lemon-warning-rgb: 229 192 123;
+  --lemon-error-rgb: 224 108 117;
+  --lemon-info-rgb: 97 175 239;
+
+  /* Direct CSS values (surfaces, borders, shadows, scrollbars) */
+  --lemon-primary: #e5c07b;
+  --lemon-primary-hover: #f0d38d;
+  --lemon-primary-bg: rgba(229, 192, 123, 0.12);
+  --lemon-primary-border: rgba(229, 192, 123, 0.25);
+  --lemon-on-primary: #1e2227;
+  --lemon-panel-border: rgba(255, 255, 255, 0.05);
+  --lemon-tile-border: rgba(255, 255, 255, 0.06);
+  --lemon-tile-border-hover: rgba(255, 255, 255, 0.12);
+  --lemon-control-border: rgba(255, 255, 255, 0.08);
+  --lemon-control-border-hover: rgba(255, 255, 255, 0.16);
+  --lemon-panel-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.35);
+  --lemon-tile-shadow: 0 2px 8px rgba(0, 0, 0, 0.22), 0 1px 3px rgba(0, 0, 0, 0.15);
+  --lemon-tile-shadow-hover: 0 4px 14px -2px rgba(0, 0, 0, 0.28), 0 2px 4px rgba(0, 0, 0, 0.15);
+  --lemon-scrollbar-thumb: rgba(255, 255, 255, 0.10);
+  --lemon-scrollbar-thumb-hover: rgba(255, 255, 255, 0.20);
+
+  /* Backward-compatible aliases (admin-cms & feed-app) */
+  --platform-bg: #1b1d23;
+  --canvas-bg: #21252b;
+  --panel-bg: #242830;
+  --panel-border: rgba(255, 255, 255, 0.05);
+  --panel-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.35);
+  --tile-bg: #282c34;
+  --tile-bg-subtle: #242830;
+  --tile-bg-muted: #1e2227;
+  --tile-border: rgba(255, 255, 255, 0.06);
+  --tile-border-hover: rgba(255, 255, 255, 0.12);
+  --tile-shadow: 0 2px 8px rgba(0, 0, 0, 0.22), 0 1px 3px rgba(0, 0, 0, 0.15);
+  --tile-shadow-hover: 0 4px 14px -2px rgba(0, 0, 0, 0.28), 0 2px 4px rgba(0, 0, 0, 0.15);
+  --control-bg: #1e2227;
+  --control-bg-hover: #252931;
+  --control-border: rgba(255, 255, 255, 0.08);
+  --control-border-hover: rgba(255, 255, 255, 0.16);
+  --control-text: #9da5b4;
+  --control-placeholder: #5c6370;
+  --text-main: #9da5b4;
+  --text-secondary: #7e8796;
+  --text-muted: #5c6370;
+  --text-dim: #444b58;
+  --primary: #e5c07b;
+  --primary-rgb: 229 192 123;
+  --primary-hover: #f0d38d;
+  --primary-bg: rgba(229, 192, 123, 0.12);
+  --primary-border: rgba(229, 192, 123, 0.25);
+  --on-primary: 30 34 39;
+  --scrollbar-thumb: rgba(255, 255, 255, 0.10);
+  --scrollbar-thumb-hover: rgba(255, 255, 255, 0.20);
+  --feed-bg: 27 29 35;
+  --surface-container: 40 44 52;
+  --surface-container-highest: 36 40 48;
+  --surface-variant: 30 34 39;
+  --on-surface: 157 165 180;
+  --on-surface-variant: 126 135 150;
+  --outline: 92 99 112;
+  --outline-variant: 68 75 88;
+}
+
+/* Lemon Atom Theme — Light */
+:root[data-theme="atom"], [data-theme="atom-light"] {
+  color-scheme: light;
+
+  /* Canonical Lemon Surface RGB triplets (usable with rgb(var(--...) / <alpha-value>)) */
+  --lemon-platform-rgb: 226 232 240;
+  --lemon-canvas-rgb: 237 241 246;
+  --lemon-panel-rgb: 255 255 255;
+  --lemon-tile-rgb: 255 255 255;
+  --lemon-tile-subtle-rgb: 241 245 249;
+  --lemon-tile-muted-rgb: 226 232 240;
+  --lemon-control-rgb: 255 255 255;
+  --lemon-control-hover-rgb: 248 250 252;
+
+  /* Canonical Text RGB triplets */
+  --lemon-text-main-rgb: 56 58 66;
+  --lemon-text-secondary-rgb: 92 99 112;
+  --lemon-text-muted-rgb: 124 132 146;
+  --lemon-text-dim-rgb: 157 163 175;
+
+  /* Canonical Brand & Status RGB triplets */
+  --lemon-primary-rgb: 112 118 0;
+  --lemon-primary-hover-rgb: 89 93 0;
+  --lemon-primary-active-rgb: 89 93 0;
+  --lemon-on-primary-rgb: 255 255 255;
+  --lemon-link-rgb: 112 118 0;
+  --lemon-success-rgb: 22 163 74;
+  --lemon-warning-rgb: 217 119 6;
+  --lemon-error-rgb: 220 38 38;
+  --lemon-info-rgb: 2 132 199;
+
+  /* Direct CSS values (surfaces, borders, shadows, scrollbars) */
+  --lemon-primary: #707600;
+  --lemon-primary-hover: #595d00;
+  --lemon-primary-bg: rgba(112, 118, 0, 0.08);
+  --lemon-primary-border: rgba(112, 118, 0, 0.25);
+  --lemon-on-primary: #ffffff;
+  --lemon-panel-border: rgba(15, 23, 42, 0.14);
+  --lemon-tile-border: rgba(15, 23, 42, 0.18);
+  --lemon-tile-border-hover: rgba(15, 23, 42, 0.32);
+  --lemon-control-border: rgba(15, 23, 42, 0.18);
+  --lemon-control-border-hover: rgba(15, 23, 42, 0.35);
+  --lemon-panel-shadow: 0 4px 16px -2px rgba(15, 23, 42, 0.08), 0 1px 3px 0 rgba(15, 23, 42, 0.04);
+  --lemon-tile-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.08), 0 2px 6px -1px rgba(15, 23, 42, 0.05);
+  --lemon-tile-shadow-hover: 0 4px 12px -2px rgba(15, 23, 42, 0.14), 0 2px 4px -1px rgba(15, 23, 42, 0.06);
+  --lemon-scrollbar-thumb: rgba(15, 23, 42, 0.16);
+  --lemon-scrollbar-thumb-hover: rgba(15, 23, 42, 0.32);
+
+  /* Backward-compatible aliases (admin-cms & feed-app) */
+  --platform-bg: #e2e8f0;
+  --canvas-bg: #edf1f6;
+  --panel-bg: #ffffff;
+  --panel-border: rgba(15, 23, 42, 0.14);
+  --panel-shadow: 0 4px 16px -2px rgba(15, 23, 42, 0.08), 0 1px 3px 0 rgba(15, 23, 42, 0.04);
+  --tile-bg: #ffffff;
+  --tile-bg-subtle: #f1f5f9;
+  --tile-bg-muted: #e2e8f0;
+  --tile-border: rgba(15, 23, 42, 0.18);
+  --tile-border-hover: rgba(15, 23, 42, 0.32);
+  --tile-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.08), 0 2px 6px -1px rgba(15, 23, 42, 0.05);
+  --tile-shadow-hover: 0 4px 12px -2px rgba(15, 23, 42, 0.14), 0 2px 4px -1px rgba(15, 23, 42, 0.06);
+  --control-bg: #ffffff;
+  --control-bg-hover: #f8fafc;
+  --control-border: rgba(15, 23, 42, 0.18);
+  --control-border-hover: rgba(15, 23, 42, 0.35);
+  --control-text: #383a42;
+  --control-placeholder: #7c8492;
+  --text-main: #383a42;
+  --text-secondary: #5c6370;
+  --text-muted: #7c8492;
+  --text-dim: #9da3af;
+  --primary: #707600;
+  --primary-rgb: 112 118 0;
+  --primary-hover: #595d00;
+  --primary-bg: rgba(112, 118, 0, 0.08);
+  --primary-border: rgba(112, 118, 0, 0.25);
+  --on-primary: 255 255 255;
+  --scrollbar-thumb: rgba(15, 23, 42, 0.16);
+  --scrollbar-thumb-hover: rgba(15, 23, 42, 0.32);
+  --feed-bg: 226 232 240;
+  --surface-container: 255 255 255;
+  --surface-container-highest: 241 245 249;
+  --surface-variant: 226 232 240;
+  --on-surface: 56 58 66;
+  --on-surface-variant: 92 99 112;
+  --outline: 124 132 146;
+  --outline-variant: 157 163 175;
+}
+
+/* Lemon Atom Theme — Dark */
+:root[data-theme="atom"].dark, [data-theme="atom-dark"] {
+  color-scheme: dark;
+
+  /* Canonical Lemon Surface RGB triplets (usable with rgb(var(--...) / <alpha-value>)) */
+  --lemon-platform-rgb: 27 29 35;
+  --lemon-canvas-rgb: 33 37 43;
+  --lemon-panel-rgb: 36 40 48;
+  --lemon-tile-rgb: 40 44 52;
+  --lemon-tile-subtle-rgb: 36 40 48;
+  --lemon-tile-muted-rgb: 30 34 39;
+  --lemon-control-rgb: 30 34 39;
+  --lemon-control-hover-rgb: 37 41 49;
+
+  /* Canonical Text RGB triplets */
+  --lemon-text-main-rgb: 157 165 180;
+  --lemon-text-secondary-rgb: 126 135 150;
+  --lemon-text-muted-rgb: 92 99 112;
+  --lemon-text-dim-rgb: 68 75 88;
+
+  /* Canonical Brand & Status RGB triplets */
+  --lemon-primary-rgb: 229 192 123;
+  --lemon-primary-hover-rgb: 240 211 141;
+  --lemon-primary-active-rgb: 201 154 69;
+  --lemon-on-primary-rgb: 30 34 39;
+  --lemon-link-rgb: 229 192 123;
+  --lemon-success-rgb: 152 195 121;
+  --lemon-warning-rgb: 229 192 123;
+  --lemon-error-rgb: 224 108 117;
+  --lemon-info-rgb: 97 175 239;
+
+  /* Direct CSS values (surfaces, borders, shadows, scrollbars) */
+  --lemon-primary: #e5c07b;
+  --lemon-primary-hover: #f0d38d;
+  --lemon-primary-bg: rgba(229, 192, 123, 0.12);
+  --lemon-primary-border: rgba(229, 192, 123, 0.25);
+  --lemon-on-primary: #1e2227;
+  --lemon-panel-border: rgba(255, 255, 255, 0.05);
+  --lemon-tile-border: rgba(255, 255, 255, 0.06);
+  --lemon-tile-border-hover: rgba(255, 255, 255, 0.12);
+  --lemon-control-border: rgba(255, 255, 255, 0.08);
+  --lemon-control-border-hover: rgba(255, 255, 255, 0.16);
+  --lemon-panel-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.35);
+  --lemon-tile-shadow: 0 2px 8px rgba(0, 0, 0, 0.22), 0 1px 3px rgba(0, 0, 0, 0.15);
+  --lemon-tile-shadow-hover: 0 4px 14px -2px rgba(0, 0, 0, 0.28), 0 2px 4px rgba(0, 0, 0, 0.15);
+  --lemon-scrollbar-thumb: rgba(255, 255, 255, 0.10);
+  --lemon-scrollbar-thumb-hover: rgba(255, 255, 255, 0.20);
+
+  /* Backward-compatible aliases (admin-cms & feed-app) */
+  --platform-bg: #1b1d23;
+  --canvas-bg: #21252b;
+  --panel-bg: #242830;
+  --panel-border: rgba(255, 255, 255, 0.05);
+  --panel-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.35);
+  --tile-bg: #282c34;
+  --tile-bg-subtle: #242830;
+  --tile-bg-muted: #1e2227;
+  --tile-border: rgba(255, 255, 255, 0.06);
+  --tile-border-hover: rgba(255, 255, 255, 0.12);
+  --tile-shadow: 0 2px 8px rgba(0, 0, 0, 0.22), 0 1px 3px rgba(0, 0, 0, 0.15);
+  --tile-shadow-hover: 0 4px 14px -2px rgba(0, 0, 0, 0.28), 0 2px 4px rgba(0, 0, 0, 0.15);
+  --control-bg: #1e2227;
+  --control-bg-hover: #252931;
+  --control-border: rgba(255, 255, 255, 0.08);
+  --control-border-hover: rgba(255, 255, 255, 0.16);
+  --control-text: #9da5b4;
+  --control-placeholder: #5c6370;
+  --text-main: #9da5b4;
+  --text-secondary: #7e8796;
+  --text-muted: #5c6370;
+  --text-dim: #444b58;
+  --primary: #e5c07b;
+  --primary-rgb: 229 192 123;
+  --primary-hover: #f0d38d;
+  --primary-bg: rgba(229, 192, 123, 0.12);
+  --primary-border: rgba(229, 192, 123, 0.25);
+  --on-primary: 30 34 39;
+  --scrollbar-thumb: rgba(255, 255, 255, 0.10);
+  --scrollbar-thumb-hover: rgba(255, 255, 255, 0.20);
+  --feed-bg: 27 29 35;
+  --surface-container: 40 44 52;
+  --surface-container-highest: 36 40 48;
+  --surface-variant: 30 34 39;
+  --on-surface: 157 165 180;
+  --on-surface-variant: 126 135 150;
+  --outline: 92 99 112;
+  --outline-variant: 68 75 88;
+}
+
+/* Lemon Slate Theme — Light */
+:root[data-theme="slate"], [data-theme="slate-light"] {
+  color-scheme: light;
+
+  /* Canonical Lemon Surface RGB triplets (usable with rgb(var(--...) / <alpha-value>)) */
+  --lemon-platform-rgb: 248 250 252;
+  --lemon-canvas-rgb: 248 250 252;
+  --lemon-panel-rgb: 255 255 255;
+  --lemon-tile-rgb: 255 255 255;
+  --lemon-tile-subtle-rgb: 241 245 249;
+  --lemon-tile-muted-rgb: 226 232 240;
+  --lemon-control-rgb: 255 255 255;
+  --lemon-control-hover-rgb: 241 245 249;
+
+  /* Canonical Text RGB triplets */
+  --lemon-text-main-rgb: 15 23 42;
+  --lemon-text-secondary-rgb: 71 85 105;
+  --lemon-text-muted-rgb: 100 116 139;
+  --lemon-text-dim-rgb: 148 163 184;
+
+  /* Canonical Brand & Status RGB triplets */
+  --lemon-primary-rgb: 36 129 204;
+  --lemon-primary-hover-rgb: 30 108 176;
+  --lemon-primary-active-rgb: 26 93 153;
+  --lemon-on-primary-rgb: 255 255 255;
+  --lemon-link-rgb: 36 129 204;
+  --lemon-success-rgb: 22 163 74;
+  --lemon-warning-rgb: 217 119 6;
+  --lemon-error-rgb: 220 38 38;
+  --lemon-info-rgb: 36 129 204;
+
+  /* Direct CSS values (surfaces, borders, shadows, scrollbars) */
+  --lemon-primary: #2481cc;
+  --lemon-primary-hover: #1e6cb0;
+  --lemon-primary-bg: rgba(36, 129, 204, 0.10);
+  --lemon-primary-border: rgba(36, 129, 204, 0.30);
+  --lemon-on-primary: #ffffff;
+  --lemon-panel-border: rgba(226, 232, 240, 0.85);
+  --lemon-tile-border: rgba(226, 232, 240, 0.85);
+  --lemon-tile-border-hover: rgba(148, 163, 184, 0.65);
+  --lemon-control-border: rgba(226, 232, 240, 0.95);
+  --lemon-control-border-hover: rgba(148, 163, 184, 0.75);
+  --lemon-panel-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  --lemon-tile-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  --lemon-tile-shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.08);
+  --lemon-scrollbar-thumb: rgba(140, 160, 180, 0.25);
+  --lemon-scrollbar-thumb-hover: rgba(140, 160, 180, 0.45);
+
+  /* Backward-compatible aliases (admin-cms & feed-app) */
+  --platform-bg: #f8fafc;
+  --canvas-bg: #f8fafc;
+  --panel-bg: #ffffff;
+  --panel-border: rgba(226, 232, 240, 0.85);
+  --panel-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  --tile-bg: #ffffff;
+  --tile-bg-subtle: #f1f5f9;
+  --tile-bg-muted: #e2e8f0;
+  --tile-border: rgba(226, 232, 240, 0.85);
+  --tile-border-hover: rgba(148, 163, 184, 0.65);
+  --tile-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  --tile-shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.08);
+  --control-bg: #ffffff;
+  --control-bg-hover: #f1f5f9;
+  --control-border: rgba(226, 232, 240, 0.95);
+  --control-border-hover: rgba(148, 163, 184, 0.75);
+  --control-text: #0f172a;
+  --control-placeholder: #64748b;
+  --text-main: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --text-dim: #94a3b8;
+  --primary: #2481cc;
+  --primary-rgb: 36 129 204;
+  --primary-hover: #1e6cb0;
+  --primary-bg: rgba(36, 129, 204, 0.10);
+  --primary-border: rgba(36, 129, 204, 0.30);
+  --on-primary: 255 255 255;
+  --scrollbar-thumb: rgba(140, 160, 180, 0.25);
+  --scrollbar-thumb-hover: rgba(140, 160, 180, 0.45);
+  --feed-bg: 248 250 252;
+  --surface-container: 255 255 255;
+  --surface-container-highest: 241 245 249;
+  --surface-variant: 226 232 240;
+  --on-surface: 15 23 42;
+  --on-surface-variant: 71 85 105;
+  --outline: 100 116 139;
+  --outline-variant: 148 163 184;
+}
+
+/* Lemon Slate Theme — Dark */
+:root[data-theme="slate"].dark, [data-theme="slate-dark"] {
+  color-scheme: dark;
+
+  /* Canonical Lemon Surface RGB triplets (usable with rgb(var(--...) / <alpha-value>)) */
+  --lemon-platform-rgb: 14 22 33;
+  --lemon-canvas-rgb: 14 22 33;
+  --lemon-panel-rgb: 24 34 45;
+  --lemon-tile-rgb: 24 34 45;
+  --lemon-tile-subtle-rgb: 31 43 56;
+  --lemon-tile-muted-rgb: 39 53 68;
+  --lemon-control-rgb: 18 25 35;
+  --lemon-control-hover-rgb: 31 43 56;
+
+  /* Canonical Text RGB triplets */
+  --lemon-text-main-rgb: 226 232 240;
+  --lemon-text-secondary-rgb: 148 163 184;
+  --lemon-text-muted-rgb: 130 146 162;
+  --lemon-text-dim-rgb: 71 85 105;
+
+  /* Canonical Brand & Status RGB triplets */
+  --lemon-primary-rgb: 36 129 204;
+  --lemon-primary-hover-rgb: 59 147 219;
+  --lemon-primary-active-rgb: 30 108 176;
+  --lemon-on-primary-rgb: 255 255 255;
+  --lemon-link-rgb: 100 181 246;
+  --lemon-success-rgb: 52 211 153;
+  --lemon-warning-rgb: 251 191 36;
+  --lemon-error-rgb: 248 113 113;
+  --lemon-info-rgb: 100 181 246;
+
+  /* Direct CSS values (surfaces, borders, shadows, scrollbars) */
+  --lemon-primary: #2481cc;
+  --lemon-primary-hover: #3b93db;
+  --lemon-primary-bg: rgba(36, 129, 204, 0.16);
+  --lemon-primary-border: rgba(36, 129, 204, 0.35);
+  --lemon-on-primary: #ffffff;
+  --lemon-panel-border: rgba(255, 255, 255, 0.08);
+  --lemon-tile-border: rgba(255, 255, 255, 0.08);
+  --lemon-tile-border-hover: rgba(255, 255, 255, 0.16);
+  --lemon-control-border: rgba(255, 255, 255, 0.10);
+  --lemon-control-border-hover: rgba(255, 255, 255, 0.20);
+  --lemon-panel-shadow: 0 8px 30px rgba(0, 0, 0, 0.28);
+  --lemon-tile-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
+  --lemon-tile-shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.32);
+  --lemon-scrollbar-thumb: rgba(140, 160, 180, 0.25);
+  --lemon-scrollbar-thumb-hover: rgba(140, 160, 180, 0.45);
+
+  /* Backward-compatible aliases (admin-cms & feed-app) */
+  --platform-bg: #0e1621;
+  --canvas-bg: #0e1621;
+  --panel-bg: #18222d;
+  --panel-border: rgba(255, 255, 255, 0.08);
+  --panel-shadow: 0 8px 30px rgba(0, 0, 0, 0.28);
+  --tile-bg: #18222d;
+  --tile-bg-subtle: #1f2b38;
+  --tile-bg-muted: #273544;
+  --tile-border: rgba(255, 255, 255, 0.08);
+  --tile-border-hover: rgba(255, 255, 255, 0.16);
+  --tile-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
+  --tile-shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.32);
+  --control-bg: #121923;
+  --control-bg-hover: #1f2b38;
+  --control-border: rgba(255, 255, 255, 0.10);
+  --control-border-hover: rgba(255, 255, 255, 0.20);
+  --control-text: #e2e8f0;
+  --control-placeholder: #8292a2;
+  --text-main: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --text-muted: #8292a2;
+  --text-dim: #475569;
+  --primary: #2481cc;
+  --primary-rgb: 36 129 204;
+  --primary-hover: #3b93db;
+  --primary-bg: rgba(36, 129, 204, 0.16);
+  --primary-border: rgba(36, 129, 204, 0.35);
+  --on-primary: 255 255 255;
+  --scrollbar-thumb: rgba(140, 160, 180, 0.25);
+  --scrollbar-thumb-hover: rgba(140, 160, 180, 0.45);
+  --feed-bg: 14 22 33;
+  --surface-container: 24 34 45;
+  --surface-container-highest: 31 43 56;
+  --surface-variant: 39 53 68;
+  --on-surface: 226 232 240;
+  --on-surface-variant: 148 163 184;
+  --outline: 130 146 162;
+  --outline-variant: 71 85 105;
+}

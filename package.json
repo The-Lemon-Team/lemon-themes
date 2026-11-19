@@ -1,0 +1,67 @@
+{
+  "name": "@lemon/themes",
+  "version": "0.1.0",
+  "description": "Shared design tokens, CSS themes (Lemon Atom Theme & Lemon Slate Theme, light & dark), Tailwind preset, and runtime helpers for Lemon ecosystem apps.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-Lemon-Team/lemon-themes.git"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./tokens.css": "./dist/css/tokens.css",
+    "./surfaces.css": "./dist/css/surfaces.css",
+    "./tailwind": {
+      "types": "./dist/tailwind/preset.d.ts",
+      "import": "./dist/tailwind/preset.js",
+      "require": "./dist/tailwind/preset.cjs"
+    },
+    "./antd": {
+      "types": "./dist/antd/createAntdTheme.d.ts",
+      "import": "./dist/antd/createAntdTheme.js",
+      "require": "./dist/antd/createAntdTheme.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "generate:css": "tsx scripts/generate-css.ts",
+    "build": "pnpm run generate:css && tsup && node scripts/copy-css.mjs",
+    "dev": "tsup --watch",
+    "lint": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "peerDependencies": {
+    "antd": "^5.0.0",
+    "tailwindcss": "^3.4.0 || ^4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "antd": {
+      "optional": true
+    },
+    "tailwindcss": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "antd": "^5.24.1",
+    "jsdom": "^26.1.0",
+    "tailwindcss": "^3.4.17",
+    "tsup": "^8.3.6",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  }
+}
